@@ -1,5 +1,5 @@
 const { Command } = require('commander');
-const userInput = require('./utils/userInput');
+const userInput = require('./userInput');
 const program = new Command();
 
 const getFile = async () => {

@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
-const getFile = require('./getFile');
+const copyFile = require('./utils/copyCode');
+const deleteCOde = require('./utils/deleteCode');
+const getFile = require('./utils/getFile');
 
 const main = async () => {
   const file = await getFile();
-  console.log(file);
-
+  const copyCOde = await copyFile(file);
+  await deleteCOde(file);
 };
 
 main();
