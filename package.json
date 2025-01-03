@@ -1,0 +1,38 @@
+{
+  "name": "code-play-back",
+  "version": "1.0.0",
+  "description": "Replay your prewritten code as if writing it live, step by step.",
+  "main": "src/index.js",
+  "bin": {
+    "code-play-back": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonetAD/code-play-back.git"
+  },
+  "keywords": [
+    "code-play-back",
+    "code-replay",
+    "content-creator-tool",
+    "tutorial-assistant",
+    "live-programming-demo",
+    "code-demonstration",
+    "live-coding-simulator",
+    "youtuber-tool"
+  ],
+  "author": "Sonet Adhikary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonetAD/code-play-back/issues"
+  },
+  "homepage": "https://github.com/SonetAD/code-play-back#readme",
+  "dependencies": {
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
